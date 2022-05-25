@@ -8,11 +8,10 @@ let f_output = document.getElementById('f_output').innerHTML
 let c_output = document.getElementById('c_output').innerHTML
 
 celsiusToF = () => {
-f_output.innerHTML = ((userInputF - 32)*.5556).innerHTML // f to c
+f_output.innerHTML = ((userInputF - 32)*.5556) // f to c
 }
-celsiusToF()
+
 
 farenheitToC = () => {
-c_output.innerHTML = ((userInputC*1.8) + 32).innerHTML // c to f
+c_output.innerHTML = ((userInputC*1.8) + 32) // c to f
 }
-farenheitToC()
