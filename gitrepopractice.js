@@ -1,17 +1,16 @@
 // farenheit to celsius
-// celsius to farenheit {TWO BLANKS}
-// while you type it shows
+// celsius to farenheit 
 
-let userInputF = document.getElementById('f').value
-let userInputC = document.getElementById('c').value
+const userInputF = document.getElementById('f').value
+const userInputC = document.getElementById('c').value
+
 let f_output = document.getElementById('f_output').innerHTML
 let c_output = document.getElementById('c_output').innerHTML
 
-celsiusToF = () => {
-f_output.innerHTML = ((userInputF - 32)*.5556) // f to c
+farenheitToC = () => {
+    document.getElementById('f_output').innerHTML = (((document.getElementById('f').value) - 32) * 0.5556) // f to c
 }
 
-
-farenheitToC = () => {
-c_output.innerHTML = ((userInputC*1.8) + 32) // c to f
+celsiusToF = () => {
+    document.getElementById('c_output').innerHTML = (((document.getElementById('c').value) * 1.8) + 32) // c to f
 }
